@@ -15,7 +15,7 @@ import os
 st.set_page_config(page_title="ShopBot — Customer Support", page_icon="🛒", layout="centered")
 
 GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.environ.get("GROQ_API_KEY", ""))
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 INTENTS = [
     "greeting",
