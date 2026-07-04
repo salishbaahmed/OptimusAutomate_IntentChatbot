@@ -1,6 +1,6 @@
 # OptimusAutomate_IntentChatbot
 
-Chatbot with Intent Recognition — built for the OptimusAutomate Virtual AI Internship (Task 2).
+Chatbot with Intent Recognition — built for the OptimusAutomate Virtual AI Internship.
 
 ## Overview
 **ShopBot** is a customer support chatbot for a fictional electronics store (TechNest). It uses an LLM (Groq API, `llama-3.3-70b-versatile`) for both **intent classification** and **response generation** in a single call, tracks multi-turn conversation context, and runs in a Streamlit chat UI.
